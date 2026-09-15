@@ -1,5 +1,37 @@
+/*Note: i used CHAT-GPT to help me install and start a javafx project in intellij
+* never used javafx before but once i saw all the different views and stuff, i realized
+* that this is pretty similar to using android studios as i already took a mobile application
+* development course. I did need some refreshing though so i did use some AI to help me create
+* button clicking events, here are the prompts i used:
+*
+* # used this prompt to help me create a button click event, this generated the skeleton
+*    for creating this event. This includes the private int Label; variable which i made 2 of
+*    and renamed each variable to yesCounter and noCounter.. it then made a counter variable
+*    which i made 2 for each counter and renamed them to count1 and count2 and set them to 0.
+*    it then gave me the button click event method which i created 2 of and renamed them to
+*    incrementYesCounter and incrementNoCounter. These 2 methods increment the counter variables
+*    and then set the text of the label to the new value of the count variables.
+* 1. "how do i increment the number in the label above my button when pressed in scenebuilder"
+
+  #used this prompt to change the colors of the whole window depending on the number of the
+  counters above the yes and no buttons. it gave me the code to change the colors of all the
+  text in the window. i then realized the variables it was trying to access did not exist and realized
+  that those variable had to be created with the @FXML annotation in order to access them from
+  the scenebuilder. Thus i created a variable for each thing i wanted to change and changed the code
+  CHATGPT gave to me accordingly.
+  2. #if the yes button has been clicked more than the no button, change the color
+     of the name label to #7E7CD9, the question label color to #FFFD01, change the yes
+     and no button colors to red, with the text inside each button to white. change the noCounter
+     and yesCounter label color to #046307. then make the background of the whole window to #B1f2FF
+*/
 .name-label {
     -fx-font-size: 30px;
     -fx-font-weight: bold;
     -fx-text-fill: #FFD700;
+}
+
+.question-label {
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
 }
