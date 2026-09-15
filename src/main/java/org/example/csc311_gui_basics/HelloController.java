@@ -8,13 +8,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.shape.Sphere;
 
-/*Note:
- * got the sun photo here:
- * https://similarpng.com/hand-drawn-sun-on-transparent-background-png-2/
- * got the moon photo here:
- * https://en.wikipedia.org/wiki/Moon
- */
-
 public class HelloController {
 
     //I found out that i need to create a variable
@@ -76,7 +69,7 @@ public class HelloController {
     private int count2 = 0;
 
     @FXML
-    /**
+    /*
      * Title: incrementYesCounter() method
      * -- increments the text above the yes button by one
      * when it is clicked. also changes the color
@@ -106,21 +99,6 @@ public class HelloController {
         updateColors();
         updateImage();
     }
-
-    //Prompts used fo updateColors() method:
-
-    /* if the yes button has been clicked more than the no button, change the color
-     * of the name label to #7E7CD9, the question label color to #FFFD01, change the yes
-     * and no button colors to red, with the text inside each button to white. change the noCounter
-     * and yesCounter label color to #046307. then make the background of the whole window to #B1f2FF
-     */
-
-    /* if the no button has been clicked more than the yes button, change the color of the name
-     * label to #860111, the question label to #FA4113, the yes and no button to #B1f2FF, the text inside
-     * each button to gold, change the yes and no counter labels to white, then make the background of the
-     * whole window black
-     *
-     */
 
     /**
      * Title: colorChanger
