@@ -8,5 +8,5 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Label alignment="CENTER" ellipsisString="" prefHeight="46.0" prefWidth="282.0" styleClass="name-label" text="Carlos Gonzalez" textAlignment="CENTER" wrapText="true" />
+   <Label alignment="CENTER" ellipsisString="" prefHeight="46.0" prefWidth="282.0" rotate="25.0" styleClass="name-label" text="Carlos Gonzalez" textAlignment="CENTER" wrapText="true" />
 </VBox>
