@@ -23,6 +23,7 @@
      of the name label to #7E7CD9, the question label color to #FFFD01, change the yes
      and no button colors to red, with the text inside each button to white. change the noCounter
      and yesCounter label color to #046307. then make the background of the whole window to #B1f2FF
+
 */
 .name-label {
     -fx-font-size: 30px;
