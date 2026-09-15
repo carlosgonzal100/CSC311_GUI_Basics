@@ -24,6 +24,13 @@
      and no button colors to red, with the text inside each button to white. change the noCounter
      and yesCounter label color to #046307. then make the background of the whole window to #B1f2FF
 
+ #used this prompt to learn how to insert photos into my window. i lawrned that i had to
+ load up the photo in a variable first before doing anything with it. very similar to when
+ i had to add photos in my mobile application. i asked chatgpt for this one. this prompt
+ generated the skeleton for the method fot updating pictures, it also generated me variables
+ to load up my sun and moon pictures after i put them in my resources folder. it then generated me
+ the skeleton for the updateImage() method
+ 3. "how do i switch the photo depending on the color scheme, a sun for yes and a moon for no"
 */
 .name-label {
     -fx-font-size: 30px;
